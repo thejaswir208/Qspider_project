@@ -22,7 +22,7 @@ public class demo_FindElements {
 		driver.get("file:///G:/Selenium/Qspider/Html_pages/Demo_FindElements.html");
 		System.out.println("Opened the Sample web page");
 		
-		/**/
+		/*Demo for FindElements method*/
 		List<WebElement> alllinks = driver.findElements(By.xpath("//a"));
 		int count = alllinks.size();
 		for (int i=0;i<count;i++)
