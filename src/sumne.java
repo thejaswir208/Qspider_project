@@ -1,3 +1,5 @@
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -34,10 +36,11 @@ public class sumne {
 		js.executeScript("document.getElementById('t2').value='admin';");
 		//driver.findElement(By.xpath("//input[@id='t2']")).sendKeys("admin");
 		System.out.println("Entered the Username1");
-		
+		driver.close();
 		
 	
-
+					
+		}
 	}
 
-}
+

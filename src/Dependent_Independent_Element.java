@@ -40,8 +40,7 @@ public class Dependent_Independent_Element {
 		/*Hover on Python Download element*/
 		WebElement element = driver.findElement(By.xpath("//td[text()='Java']/../td[4]/a"));
 		Actions action = new Actions(driver); 
-        action.moveToElement(element).build().perform();
-                
+        action.moveToElement(element).build().perform();       
         
         /*Taking Screenshot*/
         TakesScreenshot ts = (TakesScreenshot)driver;
