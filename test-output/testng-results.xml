@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22510" started-at="2018-12-28T10:23:39Z" finished-at="2018-12-28T10:24:01Z">
+    <groups>
+    </groups>
+    <test name="TestNidhish" duration-ms="17718" started-at="2018-12-28T10:23:39Z" finished-at="2018-12-28T10:23:57Z">
+      <class name="Demo_Selenium_Grid_Parallel">
+        <test-method status="PASS" signature="demo_Grid(java.lang.String, java.lang.String)[pri:0, instance:Demo_Selenium_Grid_Parallel@6eebc39e]" name="demo_Grid" duration-ms="17599" started-at="2018-12-28T10:23:39Z" finished-at="2018-12-28T10:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.27:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_Grid -->
+      </class> <!-- Demo_Selenium_Grid_Parallel -->
+    </test> <!-- TestNidhish -->
+    <test name="Testnandu" duration-ms="22510" started-at="2018-12-28T10:23:39Z" finished-at="2018-12-28T10:24:01Z">
+      <class name="Demo_Selenium_Grid_Parallel">
+        <test-method status="PASS" signature="demo_Grid(java.lang.String, java.lang.String)[pri:0, instance:Demo_Selenium_Grid_Parallel@26653222]" name="demo_Grid" duration-ms="22404" started-at="2018-12-28T10:23:39Z" finished-at="2018-12-28T10:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.43.189:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_Grid -->
+      </class> <!-- Demo_Selenium_Grid_Parallel -->
+    </test> <!-- Testnandu -->
+  </suite> <!-- Suite -->
+</testng-results>

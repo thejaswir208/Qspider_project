@@ -12,7 +12,7 @@ public class POM_Test_LoginPage_invalid_and_valid_input {
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		
+	
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
@@ -41,8 +41,13 @@ public class POM_Test_LoginPage_invalid_and_valid_input {
 		login.clickLoginButton();
 		System.out.println("Clicked on Login Button");
 		
-		int count = login.getLinkCount();
-		System.out.println("Number of links in page is "+count);
+		int linkCount = login.getLinkCount();
+		System.out.println("Number of Links in page is "+linkCount);
+
+		int imageCount = login.getImageCount();
+		System.out.println("Number of Images in page is "+imageCount);
+		
+		
 		
 		driver.close();
 	}

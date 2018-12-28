@@ -2,7 +2,6 @@ package POM_Demo;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,7 +23,9 @@ public class POM_Login_Page {
 	
 	@FindBy(xpath="//a")
 	private List<WebElement> allLinks;
-	
+
+	@FindBy(xpath="//img")
+	private List<WebElement> allImages;
 	
 	///////////////////////////////////////
 	
@@ -55,7 +56,11 @@ public class POM_Login_Page {
 		LoginBTN.click();
 	}
 	
-	
+	public int getImageCount()
+	{
+		int count = allImages.size();
+		return count;
+	}
 	public int getLinkCount()
 	{
 		int count = allLinks.size();
